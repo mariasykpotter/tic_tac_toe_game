@@ -21,6 +21,7 @@ def get_position():
 
 class Bot:
     '''This is a class which represents a Bot'''
+
     def __init__(self, board):
         '''
         Initialises a Bot class.

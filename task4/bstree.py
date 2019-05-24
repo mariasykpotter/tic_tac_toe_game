@@ -103,9 +103,6 @@ class GameTree:
                     new_state[row][col] = marker
                     new_tree = cls.build(new_state, pos=(row, col), marker=cls.get_next_marker(marker), depth=depth + 1)
                     root.nodes.append(new_tree)
-                    x += 1
-                    if x == 2:
-                        return root
         return root
 
     def print(self):
