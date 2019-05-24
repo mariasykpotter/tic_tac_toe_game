@@ -1,0 +1,9 @@
+X_MARKER = 'X'
+O_MARKER = 'O'
+NULL_MARKER = '-'
+
+LENGTH_DIMENSION = 3
+
+X_WIN = -1
+O_WIN = 1
+NO_WINNER = 0
